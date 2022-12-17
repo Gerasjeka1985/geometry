@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.container__green{
+  position: absolute;
+  top: -35%;
+  left: -8%;
+  width: 800px;
+  height: 800px;
+  background: darkgreen;
+  border-radius: 50%;
+}
+.container__red{
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 300px solid red;
+  border-left: 300px solid transparent;
+}
+
+.container__bright-green{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #4be84b;
+}
+.container__blue{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width:800px;
+  height: 100px;
+  background: blue;
+  transform: rotate(45deg);
+}
+
+.container__purple{
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  width:800px;
+  height: 150px;
+  background: purple;
+  border-radius: 22px;
+}
+
